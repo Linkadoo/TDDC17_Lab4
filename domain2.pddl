@@ -20,6 +20,7 @@
    ;; Static predicates:
    (object ?o) (truck ?t) (airplane ?p) (train ?r) (vehicle ?v)
    (location ?l) (airport ?a) (city ?c) (train_station ?s) (loc ?l ?c)
+   (size ?m)
    (size_large ?L) (size_medium ?M) (size_small ?S)
    ;; Non-static predicates:
    (at ?x ?l) ;; ?x (package or vehicle) is at location ?l

@@ -28,6 +28,7 @@
    (airplane airplane1)
    (train train1)
 
+
    ;; likewise, airports must be declared both as "location" and as
    ;; the subtype "airport",
    (location office1) (location office2) (location office3) (location office4)
@@ -43,6 +44,7 @@
    (loc office2 city2) (loc airport2 city2) (loc train_station2 city2)
    (loc office3 city3) (loc airport3 city3)
    (loc office4 city4)                      (loc train_station4 city4)
+
 
 
    ;; The actual initial state of the problem, which specifies the
